@@ -1,6 +1,8 @@
 {
   "name": "Entrega",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular",
   "id": "559984c1"
 }

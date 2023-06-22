@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'tela01',
+    loadChildren: () => import('./tela01/tela01.module').then( m => m.Tela01PageModule)
   }
 ];
 
